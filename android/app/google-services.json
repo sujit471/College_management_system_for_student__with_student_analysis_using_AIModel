@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "854814242691",
+    "project_id": "collegemanagementappacem",
+    "storage_bucket": "collegemanagementappacem.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:854814242691:android:1003ed0a03987b99b5a8b6",
+        "android_client_info": {
+          "package_name": "com.example.college_management_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVZBV6gXfOFtvuh21hxi9yVgShl_ZL2Qg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
