@@ -33,62 +33,7 @@ class _LoginPageState extends State<LoginPage> {
 
   get selectedFaculty => null;
 
-  // Future<void> _authenticate(
-  //     {required String apiUrl, required Map<String, String> body}) async {
-  //   try {
-  //     final response = await http.post(
-  //       Uri.parse(apiUrl),
-  //       body: {
-  //         'password': passwordController.text,
-  //         'email': nameController.text.trim(),
-  //       },
-  //     );
-  //
-  //     if (response.statusCode == 200) {
-  //       // Successful authentication, handle the response accordingly
-  //       var data = jsonDecode(response.body.toString());
-  //       print(data['token']);// printing token to see sucess in terminal
-  //       print('Authentication successful');
-  //       Navigator.push(
-  //           context,
-  //           MaterialPageRoute(builder: (context) => NavigationMenu())
-  //               );
-  //     } else {
-  //       // Handle authentication failure
-  //       print('Authentication failed');
-  //       setState(() {
-  //         errorMessage = 'Wrong password.please try again';
-  //       });
-  //     }
-  //   } catch (e) {
-  //     // Handle network or other errors
-  //     print('Error: $e');
-  //   }
-  // }
-
-  // void _login() {
-  //   const String apiUrl = 'https://reqres.in/api/login';
-  //   //above is the  apiurl through which the data will be extracted
-  //   final Map<String, String> body = {
-  //     'email': nameController.text.trim(),
-  //     'password': passwordController.text.trim(),
-  //   };
-  //
-  //   _authenticate(apiUrl: apiUrl, body: body);
-  // }
-  // The above code is for login using the api key
-
-
-  // void _register() {
-  //   final String apiUrl = 'https://reqres.in/api/login';
-  //
-  //   final Map<String, String> body = {
-  //     'name': nameController.text.trim(),
-  //     'password': passwordController.text.trim(),
-  //   };
-  //
-  //   _authenticate(apiUrl: apiUrl, body: body);
-  // }
+//email:thunderball45@gmail.com pwd: adotya
   Future<String?> _authenticateWithFirebase(BuildContext context) async {
     try {
       UserCredential userCredential = await FirebaseAuth.instance
